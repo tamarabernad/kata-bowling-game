@@ -1,14 +1,4 @@
-//
-//  MBXAppDelegate.m
-//  kata-bowling-game
-//
-//  Created by mariachi on 9/18/13.
-//  Copyright (c) 2013 moodbox. All rights reserved.
-//
-
 #import "MBXAppDelegate.h"
-
-#import "MBXViewController.h"
 
 @implementation MBXAppDelegate
 
@@ -16,8 +6,6 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[MBXViewController alloc] initWithNibName:@"MBXViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
 }

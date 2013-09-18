@@ -16,13 +16,13 @@
 		C9C39D2517E9A155006488D7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C39D2417E9A155006488D7 /* Default.png */; };
 		C9C39D2717E9A155006488D7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C39D2617E9A155006488D7 /* Default@2x.png */; };
 		C9C39D2917E9A155006488D7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C39D2817E9A155006488D7 /* Default-568h@2x.png */; };
-		C9C39D2C17E9A155006488D7 /* MBXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C39D2B17E9A155006488D7 /* MBXViewController.m */; };
-		C9C39D2F17E9A155006488D7 /* MBXViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9C39D2D17E9A155006488D7 /* MBXViewController.xib */; };
 		C9C39D3717E9A155006488D7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C39D3617E9A155006488D7 /* SenTestingKit.framework */; };
 		C9C39D3817E9A155006488D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C39D1217E9A154006488D7 /* UIKit.framework */; };
 		C9C39D3917E9A155006488D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C39D1417E9A154006488D7 /* Foundation.framework */; };
 		C9C39D4117E9A155006488D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9C39D3F17E9A155006488D7 /* InfoPlist.strings */; };
-		C9C39D4417E9A155006488D7 /* kata_bowling_gameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C39D4317E9A155006488D7 /* kata_bowling_gameTests.m */; };
+		C9C39D4F17E9A19A006488D7 /* BowlingGameTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C39D4E17E9A19A006488D7 /* BowlingGameTest.m */; };
+		C9C39D5517E9A501006488D7 /* MBXGame.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C39D5417E9A501006488D7 /* MBXGame.m */; };
+		C9C39D5617E9A501006488D7 /* MBXGame.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C39D5417E9A501006488D7 /* MBXGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,15 +49,14 @@
 		C9C39D2417E9A155006488D7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C9C39D2617E9A155006488D7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C9C39D2817E9A155006488D7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		C9C39D2A17E9A155006488D7 /* MBXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBXViewController.h; sourceTree = "<group>"; };
-		C9C39D2B17E9A155006488D7 /* MBXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBXViewController.m; sourceTree = "<group>"; };
-		C9C39D2E17E9A155006488D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MBXViewController.xib; sourceTree = "<group>"; };
 		C9C39D3517E9A155006488D7 /* kata-bowling-gameTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kata-bowling-gameTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C39D3617E9A155006488D7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		C9C39D3E17E9A155006488D7 /* kata-bowling-gameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kata-bowling-gameTests-Info.plist"; sourceTree = "<group>"; };
 		C9C39D4017E9A155006488D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C9C39D4217E9A155006488D7 /* kata_bowling_gameTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kata_bowling_gameTests.h; sourceTree = "<group>"; };
-		C9C39D4317E9A155006488D7 /* kata_bowling_gameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kata_bowling_gameTests.m; sourceTree = "<group>"; };
+		C9C39D4D17E9A19A006488D7 /* BowlingGameTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BowlingGameTest.h; sourceTree = "<group>"; };
+		C9C39D4E17E9A19A006488D7 /* BowlingGameTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BowlingGameTest.m; sourceTree = "<group>"; };
+		C9C39D5317E9A501006488D7 /* MBXGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBXGame.h; sourceTree = "<group>"; };
+		C9C39D5417E9A501006488D7 /* MBXGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBXGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,11 +116,11 @@
 		C9C39D1817E9A155006488D7 /* kata-bowling-game */ = {
 			isa = PBXGroup;
 			children = (
+				C9C39D5217E9A446006488D7 /* Controller */,
+				C9C39D5117E9A440006488D7 /* View */,
+				C9C39D5017E9A436006488D7 /* Model */,
 				C9C39D2117E9A155006488D7 /* MBXAppDelegate.h */,
 				C9C39D2217E9A155006488D7 /* MBXAppDelegate.m */,
-				C9C39D2A17E9A155006488D7 /* MBXViewController.h */,
-				C9C39D2B17E9A155006488D7 /* MBXViewController.m */,
-				C9C39D2D17E9A155006488D7 /* MBXViewController.xib */,
 				C9C39D1917E9A155006488D7 /* Supporting Files */,
 			);
 			path = "kata-bowling-game";
@@ -144,8 +143,8 @@
 		C9C39D3C17E9A155006488D7 /* kata-bowling-gameTests */ = {
 			isa = PBXGroup;
 			children = (
-				C9C39D4217E9A155006488D7 /* kata_bowling_gameTests.h */,
-				C9C39D4317E9A155006488D7 /* kata_bowling_gameTests.m */,
+				C9C39D4D17E9A19A006488D7 /* BowlingGameTest.h */,
+				C9C39D4E17E9A19A006488D7 /* BowlingGameTest.m */,
 				C9C39D3D17E9A155006488D7 /* Supporting Files */,
 			);
 			path = "kata-bowling-gameTests";
@@ -158,6 +157,29 @@
 				C9C39D3F17E9A155006488D7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9C39D5017E9A436006488D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C9C39D5317E9A501006488D7 /* MBXGame.h */,
+				C9C39D5417E9A501006488D7 /* MBXGame.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C9C39D5117E9A440006488D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C9C39D5217E9A446006488D7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +258,6 @@
 				C9C39D2517E9A155006488D7 /* Default.png in Resources */,
 				C9C39D2717E9A155006488D7 /* Default@2x.png in Resources */,
 				C9C39D2917E9A155006488D7 /* Default-568h@2x.png in Resources */,
-				C9C39D2F17E9A155006488D7 /* MBXViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +294,7 @@
 			files = (
 				C9C39D1F17E9A155006488D7 /* main.m in Sources */,
 				C9C39D2317E9A155006488D7 /* MBXAppDelegate.m in Sources */,
-				C9C39D2C17E9A155006488D7 /* MBXViewController.m in Sources */,
+				C9C39D5517E9A501006488D7 /* MBXGame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +302,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9C39D4417E9A155006488D7 /* kata_bowling_gameTests.m in Sources */,
+				C9C39D4F17E9A19A006488D7 /* BowlingGameTest.m in Sources */,
+				C9C39D5617E9A501006488D7 /* MBXGame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,14 +324,6 @@
 				C9C39D1C17E9A155006488D7 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		C9C39D2D17E9A155006488D7 /* MBXViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C9C39D2E17E9A155006488D7 /* en */,
-			);
-			name = MBXViewController.xib;
 			sourceTree = "<group>";
 		};
 		C9C39D3F17E9A155006488D7 /* InfoPlist.strings */ = {
